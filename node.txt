@@ -1,0 +1,1 @@
+sudo docker run -v /home/hoadd4/BMSdata:/home/hoadd4/BMSdata -it get_data

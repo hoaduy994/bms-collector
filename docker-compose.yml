@@ -1,0 +1,11 @@
+version: '3'
+services:
+  get_data:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./output:/app/output
+    env_file:
+      - .env
+    network_mode: host
